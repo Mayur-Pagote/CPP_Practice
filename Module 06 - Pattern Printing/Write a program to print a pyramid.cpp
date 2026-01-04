@@ -11,9 +11,6 @@ int main() {
         for (int k = 1; k <= (i*2)-1; k++) cout<<"*";
         space -= 1;
         cout<<endl;
-
     }
-        
-
     return 0;
 }
