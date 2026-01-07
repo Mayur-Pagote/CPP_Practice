@@ -10,7 +10,7 @@ int main () {
         if (v[mid] == 2) {
             swap(v[mid], v[high]);
             high -= 1;
-        }
+        } 
         else if (v[mid] == 0){
             swap(v[low], v[mid]);
             low += 1;
