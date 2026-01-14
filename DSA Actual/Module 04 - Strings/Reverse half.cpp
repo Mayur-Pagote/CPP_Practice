@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+void rever(string &str, int len){
+    int  i= 0;
+    while (i < len){
+        swap(str[i], str[len]);
+        i += 1;
+        len -= 1;
+    }
+}
+
+int main () {
+    string str;
+    cin>>str;
+
+    int len = str.length();
+    int half = len/2 -1;
+    rever(str, half);
+
+    cout<<str;
+}
