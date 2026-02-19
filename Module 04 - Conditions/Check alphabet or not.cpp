@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-	// your code goes here
 	char s;
     cout<<"Enter a character: ";
     cin>>s;
