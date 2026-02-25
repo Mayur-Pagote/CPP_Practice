@@ -10,3 +10,4 @@ int main()
     si = (p*r*t)/100;
     cout<<"Your Simple interest is: "<<si;
 }
+
