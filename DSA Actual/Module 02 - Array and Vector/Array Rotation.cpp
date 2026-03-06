@@ -14,7 +14,6 @@ void reve (int arr[], int start, int end){
 }
 
 
-
 int main () {
     int arr[10] = {3,4,2,7,3,1,34,2,56,221};
     int length = 10;
