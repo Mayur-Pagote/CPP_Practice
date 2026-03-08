@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 int main () {
     int arr[10] = {3,54,2,4,6,34,23,35,56,34};
 
