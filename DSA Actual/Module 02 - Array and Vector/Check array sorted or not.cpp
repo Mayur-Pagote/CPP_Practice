@@ -13,7 +13,6 @@ int checkSort(vector<int> v){
     return flag;
 }
 
-
 int main () {
 
     vector<int> arr1 = {3,6,7,8,9,10,12};
