@@ -25,7 +25,6 @@ int main () {
     IKIGAI.name = 'I';
     IKIGAI.price = 500;
     IKIGAI.pages = 100;
-
     cout<<IKIGAI.countBook(500)<<endl;
     cout<<IKIGAI.isBookPresent('I')<<endl;
 }
