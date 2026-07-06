@@ -25,9 +25,8 @@ int main () {
 
     Node* temp = a;
 
-    while (1){
-        cout<<(*temp).val<<endl;
-        if (temp->next == NULL) break;
+    while (temp != NULL) {
+        cout<<temp->val;
         temp = temp->next;
     }
 
